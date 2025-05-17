@@ -1,0 +1,55 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output directories
+**/bin/
+**/build/
+**/dist/
+
+# Output of `go test` (when -c is used)
+**/*.test
+
+# IDE/editor configuration
+**/.vscode/
+**/.idea/
+*.swp
+*.swo
+*.bak
+*~
+
+# Dependency directories (for vendoring)
+**/vendor/
+
+# Module cache (just in case someone checks it in)
+**/pkg/mod/
+
+# Go workspace files
+**/go.work
+**/go.work.sum
+
+# Logs
+*.log
+
+# Coverage reports
+coverage.*
+*.coverprofile
+
+# Static analysis tools
+**/staticcheck.conf
+**/.golangci.yml
+**/golangci.yml
+**/golangci-lint-report.json
+
+# Environment files
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
